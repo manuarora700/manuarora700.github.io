@@ -8,4 +8,4 @@ Raise a pull request for edits.
 
 ### Screenshot of the Entire page
 
-![Website](img/main.png)
+![Website](img/entire.png)
