@@ -1,689 +1,497 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<title>My Portfolio</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Simple Page Needs
+================================================== -->
+<title>Manu Arora</title>
+<meta charset="UTF-8">
+<meta name="description" content="Manu Arora - Programmer / Developer">
+<meta name="keywords" content="manu, arora, developer, web, programmer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- Favicon
+================================================== -->  
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-	<link rel="stylesheet" type="text/css" href="css/superslides.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css"/>
+<link rel="stylesheet" href="css/owl.theme.css"/> 
+<link rel="stylesheet" href="css/owl.carousel.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/colors/yellow.css" id="color"/>
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+<!-- Google Web fonts
+================================================== --> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 
+<!-- Font Icons
+================================================== --> 
+<link rel="stylesheet" href="icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="icon-fonts/web-design/flaticon.css" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
 </head>
 <body>
+ <!-- Preloading -->
+<div id="preloader">
+    <div class="spinner">
+    </div>
+</div>  
+    
+<!-- Wrapper --> 
+<div class="wrapper top_60 container">
+<div class="row">
+        
+<!-- Profile Section
+================================================== --> 
+<div class="col-lg-3 col-md-4">
+    <div class="profile">
+        <div class="profile-name">
+            <span class="name">Manu Arora</span><br>
+            <span class="job">Developer / Programmer</span>
+        </div>
+        <figure class="profile-image">
+            <img src="images/profile.jpg" alt="">
+        </figure> 
+        <ul class="profile-information">
+            <li></li>
+            <li><p><span>Name:</span> Manu Arora</p></li>
+            <li><p><span>Birthday:</span> 28 March 1998</p></li>
+            <li><p><span>Email:</span> manuarorawork@gmail.com</p></li>
+            <li><p><span>GitHub:</span> manuarora700</p></li>
+        </ul>
+        <div class="col-md-12">
+            <form method="get" action="Manu Arora.pdf">
+            <button class="site-btn icon" type="submit">Download CV <i class="fa fa-download" aria-hidden="true"></i></button>
+</form>
+        </div>
+    </div>
+</div>
 
-	<div class="loader">
-		<div class="inner"></div>
-	</div>
-
-	<div id="slides">
-
-		<div class="overlay"></div>
-
-		<div class="slides-container">
-		    <img src="img/slide1.jpg" alt="">
-		    <img src="img/slide2.jpeg" alt="">
-		    <img src="img/slide3.jpeg" alt="">
-		</div>
-
-		<div class="titleMessage">
-			<div class="heading">
-				<p class="main">Manu Arora</p>
-				<p class="sub typed"></p>
-			</div>
-		</div>
-
-
-		<nav class="slides-navigation">
-		    <a href="#" class="next"></a>
-		    <a href="#" class="prev"></a>
-		</nav>
-
-
-	</div>
-
-
-	<nav id="navigation" class="navbar navbar-expand-lg">
-	  <a class="navbar-brand" href="index.html">Manu Arora</a>
-
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#skills">Skills</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#stats">Stats</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#contact">Contact</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#portfolio">Portfolio</a>
-	      </li>
-	    </ul>
-	  </div>
-
-	</nav>
-
-
-
-
-	<div id="about" class="section">
-
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-5">
-					<img class="aboutImage" src="img/about.jpeg">
-				</div>
-
-				<div class="col-md-7">
-
-
-					<h4>My name is Manu Arora</h4>
-
-					<p>Hi there! I'm Manu Arora from Jaipur, Rajasthan. I'm currently in my Final Year of Computer Science and Engineering. I have 4 years of learning experience creating websites for both myself, and for clients. I have experience programming in many different languages such as C, JavaScript, Java, and PHP. However some of my favourite projects involve working in React.js and Node.js frameworks of JavaScript.</p>
-					<p>I am pursuing my B.Tech from University of Petroleum and Energy Studies, Dehradun in Computer Science and Engineering with specialization in Open Source Software and Open Standards. Also, I have certifications from Udemy in Front End design and development. </p>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-
-
-
-	<div id="skills" class="skillsSection section">
-
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-12 text-center">
-					<h2>TECHNICAL SKILLS</h2>
-					<p>My proficiency in each skill (drag horizontally to scroll)</p>
-				</div>
-
-
-				<div class="owl-carousel owl-theme">
-				    
-				    <div class="skill">
-				    	<span class="chart" data-percent="80">
-				    		<span class="percent">80</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>PHP</h4>
-				    	<p>Used this to develop a project 'Geet: A music streaming website'</p>
-				    </div>
-
-				    <div class="skill">
-				    	<span class="chart" data-percent="72">
-				    		<span class="percent">72</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>React.js</h4>
-				    	<p>Currently learning this more. Developed 'Face detection WebApp' with this.</p>
-				    </div>
-
-				    <div class="skill">
-				    	<span class="chart" data-percent="82">
-				    		<span class="percent">82</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>C</h4>
-				    	<p>Studied it for 4 years. I have good knowledge of it.</p>
-				    </div>
-
-
-				    <div class="skill">
-				    	<span class="chart" data-percent="90">
-				    		<span class="percent">90</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>HTML</h4>
-				    	<p>Used in most of my web based projects</p>
-				    </div>
-
-				    <div class="skill">
-				    	<span class="chart" data-percent="90">
-				    		<span class="percent">90</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>CSS</h4>
-				    	<p>Used in most of my web based projects</p>
-				    </div>
-
-				    <div class="skill">
-				    	<span class="chart" data-percent="78">
-				    		<span class="percent">78</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Node.js</h4>
-				    	<p>Used in most of my web based projects for backend</p>
-				    </div>
-				    <div class="skill">
-				    	<span class="chart" data-percent="88">
-				    		<span class="percent">88</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Bootstrap</h4>
-				    	<p>Used in most of my web based projects. I style with this framework most of the time.</p>
-				    </div>
-				    <div class="skill">
-				    	<span class="chart" data-percent="79">
-				    		<span class="percent">79</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>Data Structures and Algorithms</h4>
-				    	<p>I love them for developing my analytical skills.</p>
-				    </div>
-
-
-				    <div class="skill">
-				    	<span class="chart" data-percent="90">
-				    		<span class="percent">90</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>JavaScript</h4>
-				    	<p>I love it. I use this scripting language in each and every project of mine.</p>
-				    </div>
-				    <div class="skill">
-				    	<span class="chart" data-percent="30">
-				    		<span class="percent">30</span>
-				    		<canvas height="152" width="152"></canvas>
-				    	</span>
-				    	<h4>MySQL</h4>
-				    	<p>Used in most of my web based projects</p>
-				    </div>
-
-
-				</div>
-
-				
-
-			</div>
-
-		</div>
-
-	</div>
-
-
-
-	<div id="stats" class="statsSection section">
-
-		<div class="container">
-
-			<div class="row">
-
-				
-				<div class="col-md-3 col-sm-6">
-					<div class="squareItem">
-						<div class="squareInnerContainer">
-							<div class="squareIcon">
-								<i class="fa fa-clock"></i>
-							</div>
-							<div class="squareContent">
-                                <h2 class="counter">4</h2>
-                                <h3>Years learning Experience</h3>
+<!-- Page Tab Container Div -->   
+<div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
+    
+<!-- Header
+================================================== --> 
+<div class="row">
+    <header class="col-md-12">
+        <nav>
+            <div class="row">
+                <!-- navigation bar -->
+                <div class="col-md-8 col-sm-8 col-xs-4">
+                    <ul class="tabs">
+                        <li class="tab">
+                            <a class="home-btn" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="tab"><a href="#resume">RESUME</a></li>
+                        <li class="tab"><a href="#portfolio">PROJECTS</a></li>
+                        <li class="tab"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                    <button class="pull-right site-btn icon hidden-xs" onclick="location.href='mailto:manuarorawork@gmail.com';">Connect <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                    <div class="hidden-md social-icons pull-right"> 
+                        <a class="fb" href="https://www.github.com/manuarora700"><i class="fa fa-github" aria-hidden="true"></i></a> 
+                        <a class="tw" href="https://www.twitter.com/mannupaaji"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                        <a class="ins" href="https://www.instagram.com/mannupaaji"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                        <a class="dr" href="https://www.linkedin.com/in/manuarora28"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <!-- Page Content
+    ================================================== --> 
+    <div class="col-md-12">
+        <div id="content" class="panel-container">
+          
+            <!-- Home Page
+            ================================================== -->  
+            <div id="home">
+                <!-- Text Section -->
+                <div class="row">
+                    <section class="about-me line col-md-12 padding_30 padbot_45">
+                    <div class="section-title"><span></span><h2>About Me</h2></div>
+                    <p class="top_30">I graduated from University of Petroleum and Energy Studies with a B.Tech degree in Computer Science and Engineering with specialization in Open Source Software and Open Standards.
+                        <br>
+                        <br> I love building projects in JavaScript. I prefer the MERN stack but anything related to javascript is cool. I was introduced to the Web world in second year of my college and since then I haven't stopped. Recently I was working on a project which lets two people code together on a single code editor along with real time video call and chat. Check it out <a href="https://pure-fortress-78798.herokuapp.com/" class="site-btn">here</a></p>
+                </section>
+                </div>
+                <!-- My Services Section -->
+                <div class="row">
+                    <section class="services line graybg col-md-12 padding_50 padbot_50">
+                    <div class="section-title bottom_45"><span></span><h2>Strong Areas</h2></div>
+                    <div class="row">
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-html"></i>
+                                </div>
+                                <span class="title">Web Development</span>
+                                <p class="little-text">I am involved with the Web Development world for 3 years now.</p>
                             </div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="squareItem">
-						<div class="squareInnerContainer">
-							<div class="squareIcon">
-								<i class="fa fa-calendar"></i>
-							</div>
-							<div class="squareContent">
-                                <h2 class="counter">8+</h2>
-                                <h3>Standalone Projects</h3>
+                        </div>
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-tools"></i>
+                                </div>
+                                <span class="title">Coding</span>
+                                <p class="little-text">Data structures, Algorithms and Problem Solving.</p>
                             </div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="squareItem">
-						<div class="squareInnerContainer">
-							<div class="squareIcon">
-								<i class="fa fa-cloud"></i>
-							</div>
-							<div class="squareContent">
-                                <h2 class="counter">18</h2>
-                                <h3>Websites Built</h3>
+                        </div>
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-competition"></i>
+                                </div>
+                                <span class="title">Programming</span>
+                                <p class="little-text">I'm comfortable with C and C++ programming languages.</p>
                             </div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="squareItem">
-						<div class="squareInnerContainer">
-							<div class="squareIcon">
-								<i class="fa fa-coffee"></i>
-							</div>
-							<div class="squareContent">
-                                <h2 class="counter">1000</h2>
-                                <h3>Cups of Coffee</h3>
+                        </div>
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-analysis"></i>
+                                </div>
+                                <span class="title">Core CS</span>
+                                <p class="little-text">I'm absolutely thorough with core CS subjects.</p>
                             </div>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-
-		</div>
-
-	</div>
-
-	<div id="contact" class="contactSection section">
-
-		<div class="col-md-12 text-center">
-
-			<p class="subHeading">Like what you see?</p>
-			<h2>I'd love to hear from you!</h2>
-			<a href="mailTo:contact@manuarora.in" class="contactButton">GET IN TOUCH!</a>
-
-		</div>
-
-	</div>
-
-
-
-	<div id="portfolio" class="section">
-
-		<div class="container">
-
-			<div class="row">
-
-				<div class="heading">
-					<h2>PORTFOLIO</h2>
-					<p>Some of my projects</p>
-				</div>
-
-				<div class="filter">
-
-					<ul id="filters">
-
-						<li><a href="#" data-filter="*" class="current">ALL</a></li>
-						<li><a href="#" data-filter=".apps">Small scale</a></li>
-						<li><a href="#" data-filter=".me">Medium scale</a></li>
-						<li><a href="#" data-filter=".websites">Large scale</a></li>
-
-					</ul>
-
-				</div>
-
-
-				<div class="itemsContainer">
-
-					<ul class="items">
-
-						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/1.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/1.png" title="View image" class="openButton" data-fancybox data-caption="My porfolio website">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://www.manuarora.in" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/2.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/2.png" title="View image" class="openButton" data-fancybox data-caption="Music Streaming Website">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/music-streaming-project" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/3.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/3.png" title="View image" class="openButton" data-fancybox data-caption="React based Webapp to search faces in an image">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/music-streaming-project" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/4.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/4.png" title="View image" class="openButton" data-fancybox data-caption="Pindi Food Point">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/12.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/12.png" title="View image" class="openButton" data-fancybox data-caption="Average Face Generation using OpenCV">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/average-face-generation" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-
-						<li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/5.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/5.png" title="View image" class="openButton" data-fancybox data-caption="Papa Rich Restaurant">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/6.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/6.png" title="View image" class="openButton" data-fancybox data-caption="Aceternity Website">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/acet-main" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/7.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/7.png" title="View image" class="openButton" data-fancybox data-caption="Natours - Advanced front end">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/advanced-css-project" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/8.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/8.png" title="View image" class="openButton" data-fancybox data-caption="Emend text editor">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/emend-text-editor" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-
-						<li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/9.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/9.png" title="View image" class="openButton" data-fancybox data-caption="30 JavaScipt Projects">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/javascript-30-mini-projects" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-
-						<li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/10.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/10.png" title="View image" class="openButton" data-fancybox data-caption="Page transition effect in CSS">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/web-development/tree/master/page-transition-effect" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-						<li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-
-							<div class="item">
-
-								<img src="img/portfolio/thumbnails/11.png">
-
-
-								<div class="icons">
-									<a href="img/portfolio/11.png" title="View image" class="openButton" data-fancybox data-caption="Wikipedia Viewer">
-										<i class="fa fa-search"></i>
-									</a>
-
-									<a href="https://github.com/manuarora700/Wikipedia-Viewer" target="_blank" class="projectLink">
-										<i class="fa fa-link"></i>
-									</a>
-								</div>
-
-								<div class="imageOverlay"></div>
-
-							</div>
-
-
-						</li>
-
-					</ul>
-
-				</div>
-
-
-
-
-
-
-			</div>
-
-		</div>
-
-	</div>
-
-
-	<div class="copyrightSection">
-
-		<div class="col-md-12 text-center">
-			<p> Jai Hind.</p>
-		</div>
-
-	</div>
-
-
-
-
-
-
-
-
-	<script src="js/countUp.js"></script>
-	<script src="js/countUp-jquery.js"></script>
-	<script src="js/jquery.superslides.min.js"></script>
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/typed.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-
-	<script src="js/script.js"></script>
+                        </div>
+                    </div>
+                </section>
+                </div>
+                <!-- Skills Section -->
+                <div class="row">
+                    <section class="design-skills col-md-6 padding_60 padbot_50">
+                        <div class="section-title bottom_45"><span></span><h2>Code Skills</h2></div>
+                        <ul class="skill-list">
+                            <li> 
+                                <h3>C++</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:80%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>C</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:60%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Data Structures and Algorithms</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:90%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Problem Solving</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:80%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="code-skills col-md-6 padding_60">
+                        <div class="section-title bottom_45"><span></span><h2>Code Skills</h2></div>
+                        <ul class="skill-list">
+                            <li> 
+                                <h3>HTML/CSS</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:80%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>JavaScript</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:90%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>JavaScript frameworks (React and Node)</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:60%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Databases (MySQL and MongoDB)</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:50%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            
+            <!-- Resume Page
+            ================================================== --> 
+            <div id="resume">
+                <!-- Resume Section -->
+                <div class="row">
+                    <section class="education">
+                    <div class="section-title top_30"><span></span><h2>Resume</h2></div>
+                        <div class="row">
+                            <!-- Working History -->
+                            <div class="working-history col-md-6 padding_15 padbot_30">
+                                <ul class="timeline col-md-12 top_30">
+                                    <li><i class="fa fa-suitcase" aria-hidden="true"></i><h2 class="timeline-title">Working History</h2></li>
+                                   <!-- a work -->
+                                <!--     <li><h3 class="line-title">Accenture - Software Developer Associate</h3>
+                                        <span>Aug 2019 - Nov 2019</span>
+                                        <p class="little-text">.</p>
+                                    </li> -->
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Aceternity - Cofounder & Developer</h3>
+                                        <span>Dec 2018 - Dec 2019</span>
+                                        <p class="little-text">Developed a website developement and digital marketing agency as a part of a weekend pet project. Generated revenue of Rs. 1,00,000 in the first month of release.</p>
+                                    </li>
+                                    <!-- a work -->
+                                    <li><h3 class="line-title">Machine Learning Intern - Intel</h3>
+                                        <span>June 2018 - Aug 2018</span>
+                                        <p class="little-text">Developed a pothole detection system using machine learning algorithm and computer vision techniques. The project detects potholes on roads and alerts the driver when found.</p>
+                                    </li>
+                                </ul> 
+                            </div>  
+                            <!-- Education History -->
+                            <div class="education-history col-md-6 padding_15 padbot_30">
+                                <ul class="timeline col-md-12 top_30">
+                                    <li><i class="fa fa-graduation-cap" aria-hidden="true"></i><h2 class="timeline-title">Education History</h2></li>
+                                    <!-- a work -->
+                                    <li><h3 class="line-title">University of Petroleum and Energy Studies</h3>
+                                        <span>Graduation</span>
+                                        <span>2015 - 2019</span>
+                                        <p class="little-text">Graduation B.Tech in CSE with Specialization in Open Source and Open Standards.</p>
+                                        <p class="little-text"><strong>GPA: 7.0</strong></p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Delhi Public School</h3>
+                                        <span>Higher Secondary</span>
+                                        <span>2013 - 2014</span>
+                                        <p class="little-text">With Physics, Chemistry and Maths</p>
+                                        <p class="little-text"><strong> Percentage: 93.6%</strong></p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Delhi Public School</h3>
+                                        <span>Secondary</span>
+                                        <span>2011 - 2012</span>
+                                        <p class="little-text"><strong>CGPA: 9.0 </strong>.</p>
+                                    </li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+            <!-- Portfolio Page
+            ================================================== --> 
+            <div id="portfolio" class="row bottom_45">
+                <section class="col-md-12">
+                    <div class="col-md-12 content-header bottom_15">
+                        <div class="section-title top_30 bottom_30"><span></span><h2>Projects</h2></div>
+                        <!-- <div id="filters-container">
+                            <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">All</div>
+                            <div data-filter=".webdesign" class="cbp-filter-item">Web Design</div>
+                            <div data-filter=".motion" class="cbp-filter-item">Motion Graphic</div>
+                            <div data-filter=".illustration" class="cbp-filter-item">Illustration</div>
+                            <div data-filter=".photography" class="cbp-filter-item">Photography</div>
+                        </div> -->
+                    </div>
+                    <div id="grid-container" class="top_60">
+                        <!-- a work -->
+                        <div class="cbp-item webdesign">
+                            <a href="https://pure-fortress-78798.herokuapp.com/">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-01.jpg" alt="" >
+                                    <figcaption>
+                                        <span class="title">Brocode: Text Editor / video call</span><br/>
+                                        <span class="info">A Real time collaborative text editor with video call and chat messaging, A collaborative code editor with parallel access.</span><br>
+                                        <span class="info"><strong>Technology:</strong> Node.JS, HTML/CSS, Bootstrap4.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a video work -->
+                        <div class="cbp-item motion">
+                            <a href="https://face-webapp.herokuapp.com/">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-02.jpg" alt="" >
+                                    <figcaption>
+                                        <span class="title">Face Detection WebApp</span><br/>
+                                        <span class="info">Detect faces in a picture upon entering the url. Contains Login and Registration and ML API Clarifai to detect faces.</span><br>
+                                        <span class="info"><strong>Technology:</strong> ReactJS, NodeJS, PostgreSQL, Bootstrap4</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a image work -->
+                        <div class="cbp-item photography">
+                            <a href="work/advanced-css-project/index.html">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-06.jpg" alt="">                       
+                                    <figcaption>
+                                        <span class="title">Natours: Travel the World</span><br/>
+                                        <span class="info">A frontent implementation of a fictional travel agency. Built with cutting edge modern design principles.</span><br>
+                                        <span class="info"><strong>Technology:</strong> SASS, HTML/CSS, Bootstrap4</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a work -->
+                        <div class="cbp-item webdesign">
+                            <a href="https://github.com/manuarora700/music-streaming-project">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-03.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">Geet: Stream music online</span><br/>
+                                        <span class="info">A music streaming web application (like spotify) with features such as create playlist, pause, play, shuffle, repeat and more. Inbuilt login and registration</span> <br>
+                                        <span class="info"><strong>Technology:</strong> PHP, Bootstrap4, Sass</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a video work -->
+                        <div class="cbp-item motion">
+                            <a href="https://github.com/manuarora700.github.io/old v1/">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-04.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">Portfolio V1</span><br/>
+                                        <span class="info">Built my first website with google material design. Had multiple pages for each section and followed a proper structure</span><br>
+                                        <span class="info"><strong>Technology:</strong> Sass, Bootstrap4, Google Material Design, JS</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a work -->
+                        <div class="cbp-item webdesign">
+                            <a href="https://github.com/manuarora700/javascript-30-mini-projects">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-05.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">JavaScript 30</span><br/>
+                                        <span class="info">30 mini projects in pure vanilla JS with no frameworks. Illustrates the true potential of JS as a complete language. Projects are built with covering every aspect of JS in mind.</span><br>
+                                        <span class="info"><strong>Technology:</strong> Vanilla JS, Bootstrap4</span>
+
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <div class="col-md-12 top_45 bottom_30 text-center">
+                    <button class="site-btn" onclick="window.location.href = 'https://github.com/manuarora700';">See More</button>
+                </div>
+
+            </div>
+            <!-- Contact Page
+            ================================================== --> 
+            <div id="contact">
+                <div class="row">
+                    <!-- Contact Form -->
+                    <section class="contact-form col-md-6 padding_30 padbot_45">
+                        <div class="section-title top_15 bottom_30"><span></span><h2>Contact Form</h2></div>
+                        <form class="site-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input class="site-input" placeholder="Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="site-input" placeholder="E-mail">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="site-area" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-md-12 top_15 bottom_30">
+                                    <button class="site-btn" type="submit">Submit</button>
+                                </div>
+
+                            </div>
+                        </form>  
+                    </section>
+                    <!-- Contact Informations -->
+                    <section class="contact-info col-md-6 padding_30 padbot_45">
+                        <div class="section-title top_15 bottom_30"><span></span><h2>Contact Informations</h2></div>
+                        <ul>
+                            <li><span>Address:</span> Jaipur, Rajasthan</li>
+                            <li><span>E-mail:</span> manuarorawork@gmail.com</li>
+                            <li><span>LinkedIn:</span> manuarora28</li>
+                            <li>
+                                <div class="social-icons top_15"> 
+                                    <a class="fb" href="https://www.github.com/manuarora700"><i class="fa fa-github" aria-hidden="true"></i></a> 
+                                    <a class="tw" href="https://www.twitter.com/mannupaaji"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                                    <a class="ins" href="https://www.instagram.com/mannupaaji"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                                    <a class="dr" href="https://www.linkedin.com/in/manuarora28"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+            
+        </div><!-- Content - End -->
+     </div> <!-- col-md-12 end -->
+</div><!-- row end -->
+<!-- Footer
+================================================== --> 
+<footer>
+    <div class="footer col-md-12 top_30 bottom_30">
+        <div class="name col-md-4 hidden-md hidden-sm hidden-xs">Manu Arora.</div>
+        <div class="copyright col-lg-8 col-md-12"> Developed by <a href="https://linkedin.com/in/manuarora28" target="__blank">Manu Arora</a> </div>  
+    </div>
+</footer>
+    
+</div> <!-- Tab Container - End -->
+</div> <!-- Row - End --> 
+</div> <!-- Wrapper - End -->   
+
+<!-- Javascripts
+================================================== -->  
+<script src="js/jquery-2.1.4.min.js"></script> 
+<script src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.easytabs.min.js"></script>
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/main.js"></script>
+<!-- for color alternatives -->
+<script src="js/jquery.cookie-1.4.1.min.js"></script>
+<!-- <script src="js/Demo.js"></script> -->
+<!-- <link rel="stylesheet" href="css/Demo.min.css" /> -->
+ 
 
 </body>
 </html>
