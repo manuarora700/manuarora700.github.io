@@ -159,5 +159,5 @@ $(function() {
       }, tx);
   }
 
-  writeCode(0, 20);
+  writeCode(0, 60);
 });
