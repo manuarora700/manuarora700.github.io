@@ -42,7 +42,7 @@ $(function() {
   */
   
       html{
-        background-color: #39CCCC;
+        background: #3498db;
       }
   
   /**
@@ -159,5 +159,5 @@ $(function() {
       }, tx);
   }
 
-  writeCode(0, 60);
+  writeCode(0, 20);
 });
