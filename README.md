@@ -11,6 +11,7 @@
 - [Current Website](http://manuarora700.github.io/)
 - [advanced-css-project](https://www.github.com/manuarora700/advanced-css-project)
 - [Type resume web template](https://www.github.com/manuarora700/typeresume)
+- [Speed Typer](https://www.github.com/manuarora700/speed-typer)
 
 ## Sections
 
