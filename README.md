@@ -4,7 +4,7 @@
 
 ---
 
-## This repo contains
+## This repo Hosts
 
 - [Version 1 website](http://manuarora700.github.io/old%20v1)
 - [Javascript Mini Gallery - ongoing](http://manuarora700.github.io/jsgallery)
