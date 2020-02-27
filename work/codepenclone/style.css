@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+textarea {
+  width: 32%;
+  float: top;
+  min-height: 250px;
+  overflow: auto;
+  margin: auto;
+  display: inline-block;
+  background: #f4f4f9;
+  outline: none;
+  font-family: Courier, sans-serif;
+  font-size: 14px;
+  background-color: rgb(48, 48, 48);
+  color: whitesmoke;
+  /* box-shadow: -4px 4px 2px 0 rgba(0, 0, 0, 0.3); */
+  margin-bottom: 20px;
+}
+
+iframe {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 35em;
+}
