@@ -7,7 +7,7 @@
 ## This repo Hosts
 
 - [Version 1 website](http://manuarora700.github.io/old%20v1)
-- [Javascript Mini Gallery - ongoing](http://manuarora700.github.io/jsgallery)
+- [Javascript Mini Gallery](http://manuarora700.github.io/jsgallery)
 - [Current Website](http://manuarora700.github.io/)
 - [advanced-css-project](https://www.github.com/manuarora700/advanced-css-project)
 - [Type resume web template](https://www.github.com/manuarora700/typeresume)
