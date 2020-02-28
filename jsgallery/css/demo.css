@@ -220,27 +220,7 @@ svg.polaroid rect {
   max-width: 300px;
   text-align: left;
 }
-.footer {
-  background: grey;
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-.footer ul {
-  list-style-type: none;
-  color: whitesmoke;
-}
-.footer a {
-  color: whitesmoke;
-}
-.footer li {
-  display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 @media screen and (min-width: 60em) {
   .columns {
     -moz-column-count: 2;
@@ -283,4 +263,25 @@ svg.polaroid rect {
     font-size: 160%;
     line-height: 2;
   }
+}
+.footer {
+  background: grey;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.footer ul {
+  list-style-type: none;
+  color: whitesmoke;
+}
+.footer a {
+  color: whitesmoke;
+}
+.footer li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
 }
