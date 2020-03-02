@@ -14,6 +14,7 @@
 - [Speed Typer](https://www.github.com/manuarora700/speed-typer)
 - [Codepen Clone](https://www.github.com/manuarora700/codepen-clone)
 - [Notebook App](https://www.github.com/manuarora700/notebook-text)
+- [TypeResume 2.0](https://www.github.com/manuarora700/type-resume-v2/)
 
 ## Sections
 
