@@ -15,12 +15,14 @@
 - [Codepen Clone](https://www.github.com/manuarora700/codepen-clone)
 - [Notebook App](https://www.github.com/manuarora700/notebook-text)
 - [TypeResume 2.0](https://www.github.com/manuarora700/type-resume-v2/)
+  From now on, Every individual project will be hosted from their respective GitHub repositories.
 
 ## Sections
 
 - Home
 - Resume
 - Projects
+- Blog
 - Contact
 
 ## Libraries/Technologies used
